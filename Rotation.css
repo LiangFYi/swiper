@@ -1,0 +1,55 @@
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slide {
+    position: relative;
+    width: 800px;
+}
+.slide-image {
+    display: none;
+}
+.slide-image-active {
+    display: inline-block;
+}
+.slide-button {
+    height: 50px;
+    width: 30px;
+    color: #fff;
+    background: #000;
+    opacity: 0.3;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.img-left {
+    left: -50px;
+}
+
+.img-right {
+    right: -50px;
+}
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slide-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slide-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+}
+.dot-active {
+    background: white;
+}
